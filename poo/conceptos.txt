@@ -1,0 +1,48 @@
+Conceptos:
+
+Clase: Representación de métodos y atributos que representan a una entidad.
+
+Objeto: Instancia de una clase.
+
+Herencia: Crear nuevas clases con características similares a partir de otras.
+
+Encapsulamiento: Esconder datos que solo pueden ser accedidos por la clase.
+
+Polimorfismo: Un objeto puede comportarse de muchas formas, ejemplo: En herencia, las clases hijas pueden comportarse como su clase padre y viceversa.
+
+Abstraccion: Podemos reducir la complejidad y permitir una implementación y diseño eficiente de los datos.
+
+    Ventajas de uso:
+
+    Evitamos codigo duplicado, es decir, reusamos codigo.
+    Podemos crear múltiples instancias con una sola abstracción.
+    Al encapsular datos, los estamos protegiendo
+    Evitamos código a bajo nivel.
+    Podemos cambiar implementaciones en la clase, sin perjudicar su funcionamiento.
+
+¿Qué es encapsulamiento? Es guardar, proteger, guardar o limitar el acceso de cierto atributos y/o propiedades en nuestros prototipos y objetos.
+
+Cuando hablamos de **encapsulamiento **hablamos de:
+
+Esconder métodos y atributos 👻
+
+No permitir la alteración de métodos y atributos ❌
+
+++Encapsulamiento en JavaScript++
+
+No permitir la alteración de métodos y atributos ❌
+Formas de aplicar encapsulamiento en JavaScript
+
+Getters y setters 🖐
+
+Namespaces 🙂
+
+Object.defineProperties 🎈
+
+Módulo de ES6 🤝
+
+¿QUÉ ES EL POLIMORFISMO? Es como la herencia reloaded. Es como ‘La Herencia 2.0’. Es un pilar de la OOP. Lo que es importante es lo que se puede hacer con este: Permite a nuestras subclases cambiar o anular los comportamientos de los métodos y atributos del prototipo madre, de la clase madre. Aunque herede las propiedades, el polimorfismo permite cambiar su comportamiento. · Tipos:
+
+Polimorfismo de Sobrecarga: ocurre cuando existen métodos con el mismo nombre y funcionalidad similar en clases totalmente independientes entre ellas.
+Polimorfismo Paramétrico: El polimorfismo paramétrico es la capacidad para definir varias funciones utilizando el mismo nombre, pero usando parámetros diferentes (nombre y/o tipo).
+Polimorfismo de Inclusión (JS): La habilidad para redefinir por completo el método de una superclase en una subclase.
